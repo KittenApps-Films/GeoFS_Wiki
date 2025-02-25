@@ -1,2 +1,2 @@
-import { dictionary } from './index.js'
-print(dictionary)
+import { contents } from './index.js'
+print(contents)
