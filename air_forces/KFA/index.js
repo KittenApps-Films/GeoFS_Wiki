@@ -1,9 +1,6 @@
 //var content = "It worked!"
 //var one = "one"
-export var dictionary = { 
-     home:"It worked!",
-     one:"one",
-};
+import { dictionary } from './data.js'
 
 var url_string = window.location.href; 
 var url = new URL(url_string);
