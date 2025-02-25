@@ -1,2 +1,2 @@
 import { dictionary } from './data.js'
-print(dictionary)
+console.log(dictionary)
