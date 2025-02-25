@@ -1,11 +1,9 @@
 //var content = "It worked!"
 //var one = "one"
-dictionary={ 
+export var dictionary = { 
      home:"It worked!",
      one:"one",
 };
-
-export var contents = dictionary
 
 var url_string = window.location.href; 
 var url = new URL(url_string);
