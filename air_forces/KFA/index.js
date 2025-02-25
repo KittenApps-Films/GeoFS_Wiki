@@ -1,6 +1,6 @@
 //var content = "It worked!"
 //var one = "one"
-dictionary={ 
+export dictionary={ 
      home:"It worked!",
      one:"one",
 };
