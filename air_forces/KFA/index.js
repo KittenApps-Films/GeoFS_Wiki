@@ -7,8 +7,15 @@ var url = new URL(url_string);
 var file = url.searchParams.get("f");
 var doc = document.getElementById("content");
 
-if (file == "one") {
-  doc.innerHTML = dictionary.one
-} else {
-  doc.innerHTML = dictionary.home
+var found = false
+
+Object.keys(dictionary).forEach(function(key) {
+  if (file == key) {
+    doc.innerHTML = dictionary[key]
+    found = true
+    return; 
+  }
+})
+if (found === false) {
+  doc.innerHTML = "Page doesn't exist"
 }
