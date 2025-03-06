@@ -1,2 +1,2 @@
 
-export var users = {"KittenFilms[KFA]":"kittenapps-films.github.io/geofs/kfa/","buzz":"google."}
+export var users = {"KittenFilms[KFA]":"kittenapps-films.github.io/geofs/kfa/","buzz":"google.com"}
