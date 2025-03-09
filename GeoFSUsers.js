@@ -1,2 +1,1 @@
-
-export var users = {}
+export var users = null
