@@ -1,1 +1,1 @@
-export var users = {"Panther":"brick.com"}
+export var users = {"Buzz":"google.com"}
